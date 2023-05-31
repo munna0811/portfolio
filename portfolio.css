@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: #df5faac2;
+}
+
+nav ul {
+    display: flex;
+    justify-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(120, 120, 208);
+    font-size: 1.3em;
+}
+
+.logo {
+    height: 94px;
+    width: 82px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw 0;
+}
+
+.firstSection>div {
+    width: 20%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    outline: 5px dotted white;
+}
+
+.purple-text {
+    color: #df5faac2;
+}
+
+.text-gray {
+    color: gray;
+}
+
+hr {
+    border: 0;
+    background-color: lavender;
+    height: 1.2px;
+    margin: 40px 84px;
+
+}
+
+#element {
+    color: #df5faac2;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.aboutSection {
+    margin: 56px 150px;
+
+}
+
+.aboutDetails {
+    margin: 50px 0;
+    padding: 20px;
+    line-height: 26px;
+    height: 42vw;
+    color: grey;
+
+}
+
+
+.important {
+    font-size: 20px;
+    color: #df5faac2;
+}
+
+.figure {
+    display: flex;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.figure img {
+
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    /* border-radius: 30px; */
+}
+
+.projectSection {
+    margin: 5vw 10vw;
+    height: 450px;
+}
+
+.project-heading {
+    font-size: 30px;
+    color: #df5faac2;
+
+
+}
+
+.projectSection .col {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    font-size: 14px;
+    color: gray;
+}
+
+.fa-calculator,
+.fa-clock,
+.fa-briefcase {
+    font-size: 30px;
+    color: #df5faac2;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 72vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 170px;
+
+}
+
+.fa-trophy {
+    color: gold;
+    font-size: 23px;
+    width: 23px;
+    position: relative;
+    bottom: 29px;
+    right: 13px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 70px;
+    width: 250px;
+    color: #df5faac2;
+    font-size: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 93px;
+    font-size: 10px;
+    width: 130px;
+    color: gray;
+    font-size: 14px;
+
+}
+
+footer {
+    background-color: #df5faac2;
+    height: 94px;
+}
+
+.footer {
+    display: flex;
+    padding: 0 122px;
+    justify-content: space-evenly;
+
+
+}
+
+.footer-logo {
+    padding: 0;
+    height: 94px;
+    width: 82px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.footer .details {
+    display: inline-block;
+    padding-top: 35px;
+    font-size: 25px;
+    color: white;
+}
+
+.footer .details:hover {
+    color: rgb(120, 120, 208);
+    font-size: 1.9em;
+}
