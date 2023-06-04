@@ -103,6 +103,9 @@ hr {
     color: grey;
 
 }
+ul {
+    list-style:square;
+}
 
 
 .important {
